@@ -10,7 +10,7 @@ const MyComponent = (props) =>{
     const [isOpened, setIsOpened] = useState(false);
 
     const [x1, setX1 ] = useState(1);
-     const [x2, setX2 ] = useState(1);
+    const [x2, setX2 ] = useState(1);
 
     const hendlerSetCounter = () => {
         setCounter(counter + 1);
